@@ -1,0 +1,56 @@
+[ {
+        "package_name": "HealthCheck Basic",
+        "price": "50",
+        "package_list": [
+          "Basic Physical Examination",
+          "Blood Pressure Measurement",
+          "Complete Blood Count (CBC)",
+          "Urinalysis",
+          "Cholesterol Panel",
+          "Glucose Level Test",
+          "Body Mass Index (BMI) Calculation",
+          "Basic Doctor's Consultation"
+        ]
+      },
+      {
+        "package_name": "HealthScreen Plus",
+        "price": "150",
+        "package_list": [
+          "Comprehensive Physical Examination",
+          "Blood Pressure Measurement",
+          "Complete Blood Count (CBC)",
+          "Urinalysis",
+          "Lipid Panel (Cholesterol, Triglycerides)",
+          "Blood Glucose Level Test",
+          "Liver Function Tests (AST, ALT)",
+          "Kidney Function Tests (BUN, Creatinine)",
+          "Electrocardiogram (EKG)",
+          "Body Mass Index (BMI) Calculation",
+          "Extended Doctor's Consultation"
+        ]
+      },
+      {
+        "package_name": "ExecuHealth Premium",
+        "price": "300",
+        "package_list": [
+          "Comprehensive Physical Examination",
+          "Blood Pressure Measurement",
+          "Complete Blood Count (CBC)",
+          "Urinalysis",
+          "Lipid Panel (Cholesterol, Triglycerides)",
+          "Blood Glucose Level Test",
+          "Liver Function Tests (AST, ALT)",
+          "Kidney Function Tests (BUN, Creatinine)",
+          "Electrocardiogram (EKG)",
+          "Chest X-ray",
+          "Body Mass Index (BMI) Calculation",
+          "Extended Doctor's Consultation",
+          "Nutritional Assessment"
+        ]
+      }
+      
+    ]
+
+  
+  
+  

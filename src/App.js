@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import "./App.css"
+import Header from './components/Header'
+import AppointMent from './components/AppointMent'
+import Plans from './components/Plans'
+import About from './components/About'
+import FormSection from './components/FormSection'
+import Footer from './components/Footer'
+import Services from './components/Services'
+import Testimonial from './components/Testimonial'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header
+        tagline="The First wealth is Health ..! Your Health is Our Priority"
+        para="orem ipsum dolor sit amet consectetur adipisicing elit. Quam ad, optio dolor ullam dignissimos animi voluptatum velit repudiandae aspernatur nostrum magni amet voluptas sunt harum rem dicta delectus? Sunt veritatis totam quam voluptatem? Unde!"
+       featured = "pngkit_business-woman-png_9611691.png"
+      />
+
+      <AppointMent />
+      <Services />
+      <Plans />
+      <Testimonial />
+      <About 
+         featured ='surgery-1807541_1280.jpg'
+      />
+      <FormSection />
+      <Footer />
+
+    </>
+  )
 }
 
-export default App;
+export default App
